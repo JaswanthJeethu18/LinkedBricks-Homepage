@@ -6,7 +6,7 @@ const HomepageReviewsectiuon = (props) => {
   return (
     <>
       <List className={props.className} orientation="horizontal">
-        <div className="bg-white-A700 flex flex-col items-start justify-start p-4 rounded-[12px] shadow-bs1 w-[358px]">
+        <div className="bg-white-A700 flex flex-col items-start justify-start p-4 rounded-[12px] shadow-bs1 w-[900px]">
           <div className="flex flex-col gap-4 items-start justify-start w-full">
             <div className="flex flex-row gap-2.5 items-center justify-start w-full">
               <div className="flex flex-col h-10 items-center justify-start w-10">
@@ -81,7 +81,7 @@ const HomepageReviewsectiuon = (props) => {
             </div>
           </div>
         </div>
-        <div className="bg-white-A700 flex flex-col items-start justify-start p-4 rounded-[12px] shadow-bs1 w-[358px]">
+        <div className="bg-white-A700 flex flex-col items-start justify-start p-4 rounded-[12px] shadow-bs1 w-[900px] ">
           <div className="flex flex-col gap-4 items-start justify-start w-full">
             <div className="flex flex-row gap-2.5 items-center justify-start w-full">
               <div className="flex flex-col h-10 items-center justify-start w-10">

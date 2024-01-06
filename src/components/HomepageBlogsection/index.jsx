@@ -8,7 +8,7 @@ const HomepageBlogsection = (props) => {
       <div className={props.className}>
         <div className="flex md:flex-col flex-row gap-[30px] h-[592px] md:h-auto items-start justify-start pt-10 w-auto md:w-full">
           <List
-            className="sm:flex-col flex-row gap-[30px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 w-[97%] md:w-full"
+            className="flex flex-row gap-[10px] overflow-auto w-[97%] mt-0"
             orientation="horizontal"
           >
             <div className="bg-white-A700 flex flex-col gap-5 items-center justify-center pb-5 rounded-[12px] shadow-bs w-[393px] sm:w-full">
@@ -149,11 +149,6 @@ const HomepageBlogsection = (props) => {
                 </div>
               </div>
             </div>
-          </List>
-          <List
-            className="flex sm:flex-col flex-row gap-[30px] overflow-auto w-[7%]"
-            orientation="horizontal"
-          >
             <div className="bg-white-A700 flex flex-col gap-5 items-center justify-center pb-5 rounded-[12px] shadow-bs w-[393px] sm:w-full">
               <div className="flex flex-col items-center justify-start w-full">
                 <Img
