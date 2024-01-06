@@ -5,17 +5,18 @@ import { Button, Img, List, Text } from "components";
 const HomepageHeaderhom = (props) => {
   return (
     <>
-      <div
-        className={`${props.className} flex flex-row justify-center items-center`}
-      >
-        <div className="bg-white-A700 flex flex-row items-center justify-start gap-6 px-4 py-2 rounded-[12px] w-auto md:w-full">
+      <div className={`${props.className}`}>
+        <div
+          style={{ width: "1440px" }}
+          className="bg-white-A700 flex flex-row items-center justify-between gap-6 px-4 py-2 rounded-[12px] w-auto md:w-full"
+        >
           <Img
-            className="h-14 w-[151px]"
+            className="h-14 w-[151px] ml-[100px]"
             src="images/img_logo.svg"
             alt="logo"
           />
-          <div className="bg-white-A700 flex flex-col items-center justify-center rounded-[12px] w-auto md:w-full">
-            <div className="bg-white-A700 flex sm:flex-col flex-row gap-6 items-center justify-start px-4 py-2 rounded-[12px] w-auto">
+          <div className="bg-white-A700 flex flex-row items-center justify-center rounded-[12px] w-auto md:w-full">
+            <div className="bg-white-A700 flex sm:flex-col flex-row gap-6 items-center justify-start px-4 py-2 rounded-[12px] w-auto whitespace-nowrap">
               <Button
                 className="cursor-pointer flex items-center justify-center min-w-[94px]"
                 leftIcon={
@@ -91,7 +92,7 @@ const HomepageHeaderhom = (props) => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center rounded-[29px] shadow-bs w-auto">
+          <div className="flex flex-col items-center justify-center rounded-[29px] shadow-bs w-auto mr-[100px]">
             <div className="bg-amber-A700 flex flex-row gap-2 items-center justify-center sm:px-5 px-6 py-4 rounded-[29px] w-auto">
               <Img
                 className="h-6 w-6"
