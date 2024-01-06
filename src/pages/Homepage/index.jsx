@@ -71,13 +71,13 @@ const HomepagePage = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-exo items-center justify-start mx-auto w-full">
-        <HomepageHeaderhom className="flex flex-col gap-2.5 items-center justify-center md:px-5 w-full" />
+        <HomepageHeaderhom className="flex flex-col  gap-2.5 items-center justify-center md:px-5 w-full" />
         <div className="h-[1355px] md:px-5 relative w-full">
-          <div className="font-leaguespartan mb-[-104.62px] mx-auto w-[1440px] md:w-full z-[1]">
+          <div className="font-leaguespartan mb-[-104.62px] mx-auto w-[1440px] md:w-full z-[100]">
             <HomepageHeroslider className="flex flex-col items-center justify-start mx-auto w-full" />
-            <HomepageStacksearch className="absolute bottom-[0] font-exo h-[242px] md:h-auto left-[7%] p-4 w-[976px] md:w-full" />
+            <HomepageStacksearch className="absolute bottom-[43%] font-exo h-[242px] md:h-auto left-[25%] p-4 w-[976px] md:w-full" />
           </div>
-          <div className="flex flex-col gap-10 items-start justify-start max-w-[1440px] mt-auto mx-auto md:px-10 sm:px-5 px-[100px] w-full">
+          <div className="flex flex-col gap-10 items-start justify-start max-w-[1440px] mt-[150px] mx-auto md:px-10 sm:px-5 px-[100px] w-full">
             <Text
               className="text-5xl sm:text-[38px] md:text-[44px] text-black-900 w-full"
               size="txtExoSemiBold48"
