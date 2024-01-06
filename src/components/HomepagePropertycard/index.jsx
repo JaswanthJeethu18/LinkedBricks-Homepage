@@ -5,7 +5,7 @@ import { Button, Img, Text } from "components";
 const HomepagePropertycard = (props) => {
   return (
     <>
-      <div className={props.className}>
+      <div className={props.className} style={{ marginTop: "50px" }}>
         <div className="h-[292px] relative w-full">
           <div className="absolute m-auto w-[393px] md:w-full">
             <Img
