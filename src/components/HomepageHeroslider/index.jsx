@@ -43,7 +43,7 @@ const HomepageHeroslider = (props) => {
 
   return (
     <>
-      <div className={props.className}>
+      <div className={props.className} style={{ marginTop: "0px" }}>
         {/* Text Overlay */}
         <div className="absolute z-10 backdrop-opacity-[0.5] bg-black-900_7e blur-[200.00px] flex flex-col items-center justify-end left-[0] p-[17px] top-[0] w-[63%]">
           <div className="flex flex-col gap-5 items-start justify-center max-w-[709px] mt-[141px] w-full">
